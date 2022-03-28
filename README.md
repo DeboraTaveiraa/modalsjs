@@ -1,6 +1,6 @@
 ## Example of modals to use :sparkles:
 
-_In construction..._
+_Under construction..._
 
 ### 1# Simple modal
 ![Transcrição em Português: O vídeo mostra um clique no botão no meio da tela, onde um modal quadrado se abre na frente do botão contendo o texto "Este é um modal simples". e abaixo de dois botões, "Voltar" e "OK", respectivamente. E no canto superior direito do modal há um botão com um "x" onde é possível fechar o modal, como também é possível fechá-lo clicando em qualquer lugar da tela. English transcription: The video shows a click on the button in the middle of the screen, where a square modal opens in front of the button containing the text "This is a simple modal." and below two buttons, "Back" and "OK" respectively. And in the upper right corner of the modal there is a button with an "x" where it is possible to close the modal, as it is also possible to close it by clicking anywhere on the screen.](https://github.com/DeboraTaveiraa/modalsjs/blob/main/assets/simple-modal.gif)
