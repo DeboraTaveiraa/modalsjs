@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.btn-click-me {
+  width: 100px;
+  height: 30px;
+  background-color: #1E3D69;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.btn-click-me:hover {
+  background-color: transparent;
+  color: #1E3D69;
+  border: 1px solid #1E3D69;
+  transition: 0.2s;
+}
+
+#simple-modal {
+  display: none;
+}
+
+.modal {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #F4A300;
+  color: #333;
+  position: absolute;
+  border-radius: 5px;
+  animation: 
+    transform-scale 
+    .3s
+    ease-out
+    alternate
+    none
+    running;
+}
+
+.container-btn-modal {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-modal {
+  width: 100px;
+  height: 30px;
+  background-color: #FFF;
+  border: none;
+  border-radius: 5px;
+  color: #1E3D69;
+  cursor: pointer;
+}
+
+.btn-modal:hover {
+  background-color: #1E3D69;
+  color: #FFF;
+}
+
+.btn-close-modal {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  color: #333;
+  font-weight: 600;
+}
+
+@keyframes transform-scale {
+  0% {
+    transform: scale(.3);
+    background-color: #F4A340;
+
+  }
+  50% {
+    background-color: #F4A320;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
